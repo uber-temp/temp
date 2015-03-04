@@ -1,0 +1,6 @@
+env/
+back_end/htmlcov/
+*.py[cod]
+*.DS_Store
+*.coverage
+*.sqlite3

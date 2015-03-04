@@ -1,0 +1,4 @@
+#movie-list {
+    height: 335px;
+    overflow-y:scroll; 
+}
