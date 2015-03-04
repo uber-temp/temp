@@ -8,10 +8,10 @@
 # Challenge
 [Live Site](http://nickincardone.com/uber/)
 
-## about
+## About
 I chose to implement the SF Movies task on the back-end track with a minimal front-end page. I originally intended to go full-stack but due to time constraints (please note I am currently employed) the back-end got most of the work.
 
-## back-end
+## Back-end
 I chose to use django as my back-end framework with the django-rest-framework package. I filled the db (which is in sqlite since the project is small) using the SFD and Google Geocode api to get the movie information and location coordinates. I created three endpoints `/api/v1/movies`, `/api/v1/locations`, and `/api/v1/movies/{id}`. The first endpoint returns all the movies ids, titles, and location ids associated with them. The second endpoint returns all the locations with their id, coordinates, and title. The last endpoint returns all information for a specific movie (director, actors, etc). This design with this particular project in mind, so the endpoints are read only and were seperated to reduce load times for the front-end.
 
 to run locally from source directory
